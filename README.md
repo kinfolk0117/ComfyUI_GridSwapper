@@ -12,5 +12,4 @@ To improve convergence, especially when generating many grids, consider:
 
 ---
 
-
-<img width="920" alt="Screenshot 2024-10-26 at 19 34 24" src="https://github.com/user-attachments/assets/d5255c85-946f-4322-919c-d42c67a3ec92">
+<img width="1001" alt="Screenshot 2024-10-26 at 20 57 21" src="https://github.com/user-attachments/assets/901e9a62-0c06-420b-afa5-6701a784e858">
