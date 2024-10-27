@@ -281,6 +281,11 @@ class GridSwapper:
         latent_image = latent_image.clone()
 
         no_latents = latent_image.shape[0]
+
+        if no_latents % cells != 0:
+            raise ValueError(f"Number of latents ({no_latents}) is not a multiple of cells ({cells}), latents need to be divisible by cells. With {rows} rows x {cols} cols = {cells} cells, this means for example {1*cells}, {2*cells}, {3*cells}, ... latents are supported.")
+
+
         perms = self.get_diverse_permutations_fast(no_latents, steps)
         no_combined = latent_image.shape[0] // cells
 
